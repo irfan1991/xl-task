@@ -43,7 +43,7 @@ class Home extends Component {
     }
 
     showOptions(quote) {
-        ActionSheetIO.showActionSheetWithOptions({
+        ActionSheetIOS.showActionSheetWithOptions({
                 options: BUTTONS,
                 cancelButtonIndex: CANCEL_INDEX,
                 destructiveButtonIndex: 1,
